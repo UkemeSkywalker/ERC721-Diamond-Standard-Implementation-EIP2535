@@ -7,6 +7,7 @@ import "../interfaces/IERC721.sol";
 import "../interfaces/IERC721Receiver.sol";
 import "../libraries/Address.sol";
 import "../libraries/Strings.sol";
+import "../libraries/LibERC721Storage.sol";
 
 
 /**
@@ -17,6 +18,9 @@ import "../libraries/Strings.sol";
 contract ERC721 is Context, ERC165, IERC721, IERC721Metadata {
     using Address for address;
     using Strings for uint256;
+
+    LibERC721Storage internal x;
+
 
     // Token name
     string private _name;

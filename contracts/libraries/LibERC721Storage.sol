@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
-contract LibERC721Storage {
+struct LibERC721Storage {
 
 
 	 // Token name
