@@ -3,10 +3,10 @@
 
 pragma solidity ^0.8.0;
 
-import "./IERC721.sol";
-import "./IERC721Receiver.sol";
-import "../libraries/Address.sol";
-import "../libraries/Strings.sol";
+import "../interfaces/IERC721.sol";
+import "../interfaces/IERC721Receiver.sol";
+import "../interfaces/Address.sol";
+import "../interfaces/Strings.sol";
 
 
 /**
