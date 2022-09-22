@@ -1,9 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
-struct LibERC721Storage {
+struct AppStorage {
 
-
-	 // Token name
+// Token name
     string private _name;
 
     // Token symbol
