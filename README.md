@@ -7,7 +7,20 @@ The standard loupe functions have been gas-optimized in this implementation and 
 **Note:** The loupe functions in DiamondLoupeFacet.sol MUST be added to a diamond and are required by the EIP-2535 Diamonds standard.
 
 
-### Deployment Ad
+### Deployment Addressess
+
+| Item | Address|
+---------------
+| DiamondCutFacet deployed | 0x5d3ADD10d3827faf341361b65491C6D94DfaCdF8 |
+-------------------------------------------------------------------------
+| Diamond deployed | 0x1129Cf42d05bE34178Eed1411ca6976EB67edBaE |
+-----------------------------------------------------------------
+| DiamondInit deployed | 0x7409133a609083b72efb7FD2Dd7A26d49A02cFFa |
+---------------------------------------------------------------------
+| DiamondLoupeFacet deployed | 0x22898c2f16fd47778bE75BD4Fe6a334Fa49AE161 |
+---------------------------------------------------------------------------
+| OwnershipFacet deployed | 0xBE904E0b3CdbFA761e0035e4ed7899278463CF5d |
+------------------------------------------------------------------------
 
 ## Installation
 
