@@ -15,7 +15,7 @@ async function deployDiamond () {
 
   // deploy Diamond
   const Diamond = await ethers.getContractFactory('Diamond')
-  const diamond = await Diamond.deploy(contractOwner.address, diamondCutFacet.address)
+  const diamond = await Diamond.deploy(contractOwner.address, diamondCutFacet.address, "DutchManThing", "DMT")
   await diamond.deployed()
   console.log('Diamond deployed:', diamond.address)
 
