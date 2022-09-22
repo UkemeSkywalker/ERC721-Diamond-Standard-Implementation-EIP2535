@@ -20,6 +20,12 @@ task('accounts', 'Prints the list of accounts', async () => {
  */
 module.exports = {
   solidity: '0.8.6',
+  networks: {
+    goerli: {
+      url: process.env.alchemy_RPC,
+      accounts: [process.env.lukang]
+    }
+  },
   settings: {
     optimizer: {
       enabled: true,
