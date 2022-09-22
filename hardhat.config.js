@@ -1,4 +1,4 @@
-
+require("dotenv").config();
 /* global ethers task */
 require('@nomiclabs/hardhat-waffle')
 
